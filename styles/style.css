@@ -3,14 +3,15 @@
 .header {
 
     display: flex;
+
     padding: 92px 24px 96px 24px;  
     font-size: 18px;
-
 }
 
 
 .lots {
     padding: 179px 24px 146px 24px;
+
 }
 
 .about { 
@@ -36,6 +37,7 @@
     display: flex;
     margin: 44px 36px 40px 26px;
     gap: 26px;
+
     white-space: nowrap;  
     list-style:circle;
 
@@ -47,10 +49,10 @@
 
 
 .header__logo {
-    display: block;
+    display: flex;
     width: 140px;
     background: url(../images/logo-black.svg);
-    cursor: pointer;
+    
     
 }
 
@@ -129,7 +131,7 @@
 /* мои стили */
 
     text-transform: uppercase;
-    border: solid 1px;
+    border: solid;
     padding: 12px 32px;
 
 }
@@ -156,6 +158,7 @@
 }
 
 .card__link {
+
     display: grid;
 
 }
@@ -222,6 +225,7 @@
 .about__column {
 
     display: grid;
+    
     grid-template-columns: 30% 35% 35%;
     grid-template-rows: 45% 55%;
     justify-items: center;     
@@ -241,7 +245,6 @@
 }
 
 .about__logo-image { 
-
     background-image: url(../images/logo-white.svg);
     width: 148px;
     height: 114px;
@@ -264,7 +267,7 @@
     text-align: left;
     grid-column-start: 2;
     grid-column-end: 4;
-    
+
 }
 
 
@@ -285,6 +288,7 @@
     width: 149px;
     height: 64px;
     border: 1px 0px 0px 0px; 
+
 }
 
 .footer__social-list {
