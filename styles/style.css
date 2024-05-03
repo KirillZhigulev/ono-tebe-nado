@@ -1,8 +1,8 @@
 /* место для вашего кода */
 .header {
     display: flex;
-    padding: 92px 24px 96px 24px;  
     font-size: 18px;
+    padding: 92px 24px 96px;  
 }
 
 .lots {
@@ -20,10 +20,10 @@
 
 .header__links-list {
     display: flex;
-    padding: 44px 41px 40px 26px;
-    gap: 26px;
     white-space: nowrap;  
     list-style: circle;
+    padding: 44px 41px 40px 26px;
+    gap: 26px;
 }
 
 .header__links-list .header__links-list-item_no-bullit {
@@ -65,7 +65,7 @@
     display: block;
     font-size: 100px;
     line-height: 115px;
-    letter-spacing: 31px;
+    letter-spacing: 27px;
 }
  
 .text-center {
@@ -80,7 +80,7 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 47px;
+    letter-spacing: 43px;
 }
 
 .cover__description {
@@ -230,7 +230,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 30% auto 35%;
+    grid-template-columns: 30% repeat(2, 1fr);
 }
 
 .footer__menu-list {
