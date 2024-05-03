@@ -15,6 +15,8 @@
 }
 
 .footer {
+  display: grid;
+  grid-template-columns: 30% repeat(2, 1fr);
   padding: 0px 50px 88px 50px;
 }
 
@@ -64,7 +66,7 @@
   display: block;
   font-size: 100px;
   line-height: 115px;
-  letter-spacing: 27px;
+  letter-spacing: 23px;
 }
 
 .text-center {
@@ -79,7 +81,7 @@
 }
 
 .letter-spacing-extended {
-  letter-spacing: 43px;
+  letter-spacing: 35px;
 }
 
 .cover__description {
@@ -226,10 +228,7 @@
   grid-row-end: 2;
 }
 
-.footer {
-  display: grid;
-  grid-template-columns: 30% repeat(2, 1fr);
-}
+
 
 .footer__menu-list {
   display: grid;
