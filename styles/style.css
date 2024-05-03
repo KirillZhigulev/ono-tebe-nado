@@ -1,11 +1,9 @@
 /* место для вашего кода */
-
 .header {
     display: flex;
     padding: 92px 24px 96px 24px;  
     font-size: 18px;
 }
-
 
 .lots {
     padding: 179px 24px 146px 24px;
@@ -25,7 +23,7 @@
     padding: 44px 36px 40px 26px;
     gap: 26px;
     white-space: nowrap;  
-    list-style:circle;
+    list-style: circle;
 }
 
 .header__links-list .header__links-list-item_no-bullit {
@@ -45,7 +43,7 @@
 
 .cover {
     background-repeat: round;
-    background-size:100% auto;
+    background-size: 100% auto;
     background-image: url(../images/cover.jpg);
     width: 1100px;
     height: 757px;
@@ -82,7 +80,7 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 40px;
+    letter-spacing: 50px;
 }
 
 .cover__description {
@@ -122,7 +120,7 @@
 .lots__card-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap:25px;
+    column-gap: 25px;
     color: #fff;
 }
 
@@ -153,14 +151,14 @@
     background-repeat: no-repeat;
     background-size:160% auto;
     background-position: center;
-    background-image:url(../images/card-lot-02.jpg)
+    background-image: url(../images/card-lot-02.jpg)
 }
 
 .card_type_picture {
     background-repeat: no-repeat;
     background-size:175% auto;
     background-position: center;
-    background-image:url(../images/card-lot-03.jpg)
+    background-image: url(../images/card-lot-03.jpg)
 }
 
 .card__title {
@@ -216,7 +214,7 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
-    padding-left: 72px;
+    padding-left: 45px;
     padding-top: 136px;
     text-transform: uppercase;
     grid-column-start: 2;
@@ -226,7 +224,7 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    padding-left: 72px;
+    padding-left: 45px;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row-start: 2;
