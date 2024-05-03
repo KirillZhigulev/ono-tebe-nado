@@ -9,18 +9,18 @@
     padding: 179px 24px 146px 24px;
 }
 
-.about { 
+.about {
     display: grid;
     padding: 0px 24px 180px 24px;
 }
-
+    
 .footer {
     padding:  0px 50px 88px 50px;
 }
 
 .header__links-list {
     display: flex;
-    padding: 44px 36px 40px 26px;
+    padding: 44px 41px 40px 26px;
     gap: 26px;
     white-space: nowrap;  
     list-style: circle;
@@ -65,7 +65,7 @@
     display: block;
     font-size: 100px;
     line-height: 115px;
-    letter-spacing: 27px;
+    letter-spacing: 31px;
 }
  
 .text-center {
@@ -80,7 +80,7 @@
 }
 
 .letter-spacing-extended {
-    letter-spacing: 50px;
+    letter-spacing: 47px;
 }
 
 .cover__description {
@@ -97,15 +97,13 @@
 
 .bet-button {
 /* сброс стилей */
-    padding: 0;
-    border: none;
     font: inherit;
     color: inherit;
     background-color: transparent;
     cursor: pointer;
 /* мои стили */
     text-transform: uppercase;
-    border: solid;
+    border: solid 1px;
     padding: 12px 32px;
 }
 
@@ -132,13 +130,12 @@
     display: grid;
 }
 
-.card_type_film  {
+.card_type_film {
     display: grid;
     background-repeat: no-repeat;
     background-size:175% auto;
     background-position: center;
     background-image: url(../images/card-lot-01.jpg);
-
 }
 
 .card {
@@ -204,12 +201,12 @@
     margin-left: 47px;
 }
 
-.about__logo-image { 
+.about__logo-image {
     background-image: url(../images/logo-white.svg);
     width: 148px;
     height: 114px;
 }
-
+   
 .about__title {
     font-size: 40px;
     font-weight: 700;
@@ -233,7 +230,7 @@
 
 .footer {
     display: grid;
-    grid-template-columns: 30% 35% 35%;
+    grid-template-columns: 30% auto 35%;
 }
 
 .footer__menu-list {
