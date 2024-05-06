@@ -1,18 +1,19 @@
 /* место для вашего кода */
 .header {
   display: flex;
-  justify-content: space-between;
-  padding: 96px 64px;
-  min-height: 105px;
+  padding: 94px 24px 96px 24px;
+  min-width: 1052px;
   align-items:center;
+  justify-content: space-between;
   font-size: 18px;
+  font-weight: 400;
 }
 
 .header__links-list {
   display: flex;
   white-space: nowrap;
   list-style: circle;
-  padding: 44px 41px 40px 26px;
+  padding-left: 30px;
   gap: 26px;
 }
 
@@ -21,12 +22,14 @@
 }
 
 .header__logo {
-  display: flex;
-  width: 140px;
+  display: block;
+  width: 138px;
+  height: 105px;
 }
 
 .header__address {
   padding: 5px 0px 2px 184px;
+  font-style: normal;
 }
 
 .cover {
@@ -35,7 +38,6 @@
   padding: 163px 50px 51px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
-  background-position: right center;
   background-size: cover;
   flex-direction: column;
   align-items: center;
@@ -114,7 +116,7 @@
   background-color: transparent;
   font-weight: 500;
   font-size: 22px;
-  line-height: 25.83px;
+  line-height: 26px;
   text-transform: uppercase;
   color: #fff;
   border-color: #fff;
@@ -135,7 +137,7 @@
   margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 47px;
   text-transform: uppercase;
 }
 
@@ -196,7 +198,7 @@
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 48px;
-  line-height: 26.4px;
+  line-height: 26px;
   z-index: 3;
 }
 
@@ -222,7 +224,7 @@
   margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23.48px;
+  line-height: 23px;
 }
 
 .about {
@@ -261,11 +263,10 @@
 }
 
 .about__title {
-  grid-area: title;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 47px;
   margin-top: 135px;
 }
 
@@ -295,6 +296,7 @@
 .footer__address {
   justify-content: start;
   padding-left: 51px;
+  font-style: normal;
 }
 
 .footer__menu {
@@ -305,7 +307,7 @@
 .footer__menu-list {
   display: block;
   text-align: center;
-  line-height: 21.13px;
+  line-height: 21px;
   list-style: none;
 }
 
