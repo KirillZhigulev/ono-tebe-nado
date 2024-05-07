@@ -1,24 +1,29 @@
 /* место для вашего кода */
 .header {
   display: flex;
-  padding: 94px 24px 96px 24px;
+  padding: 92px 24px 96px 24px;
   min-width: 1052px;
   align-items:center;
   justify-content: space-between;
   font-size: 18px;
   font-weight: 400;
+ 
 }
 
 .header__links-list {
   display: flex;
   white-space: nowrap;
   list-style: circle;
-  padding-left: 30px;
-  gap: 26px;
+  padding-left: 27px;
+  gap: 33px;
 }
 
 .header__links-list-item_no-bullit {
   list-style-type: none;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -28,14 +33,15 @@
 }
 
 .header__address {
-  padding: 5px 0px 2px 184px;
+  padding: 5px 61px 2px 149px;
   font-style: normal;
+  line-height: 24px;
 }
 
 .cover {
   display: flex;
   position: relative;
-  padding: 163px 50px 51px 50px;
+  padding: 167px 50px 51px 50px;
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +105,7 @@
 
 .cover__description-text {
   text-transform: uppercase;
-  word-spacing: 20px;
+  word-spacing: 18.9px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
@@ -123,7 +129,7 @@
   border-width: 1px;
   border-style: solid;
   cursor: pointer;
-  margin-left: 73px;
+  margin-left: 79px;
   z-index: 3;
 }
 
@@ -297,6 +303,7 @@
   justify-content: start;
   padding-left: 51px;
   font-style: normal;
+  line-height: 23.5px;
 }
 
 .footer__menu {
